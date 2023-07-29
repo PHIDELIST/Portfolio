@@ -1,0 +1,22 @@
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    background-color: #181824;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo{
+    padding-left: 15px;
+    color: #7562E0;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    background-color: #181824;
+    padding-right: 15px;
+    list-style: none;
+    gap: 20px;
+
+}
