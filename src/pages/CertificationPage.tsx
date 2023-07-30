@@ -3,7 +3,7 @@ import SAA from '../assets/SAA.png'
 import SAAbadge from '../assets/SAA-badge.png'
 import CPP from '../assets/cloudpract-cert.png'
 import CPPbadge from '../assets/CPP-badge.png'
-import Azure from '../assets/Azure.png'
+import Azure from '../assets/azure.png'
 import Azurebadge from '../assets/azurebadge.png'
 import Jitu from '../assets/fullstack.png'
 function CertificationPage() {
