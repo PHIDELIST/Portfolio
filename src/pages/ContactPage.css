@@ -52,7 +52,7 @@
     .contact-container{
         flex-direction: column;
         width: 100%;
-        padding: 0px;
+        padding: 10px;
     }
     .contact-content{
         flex-direction: column;

@@ -97,7 +97,7 @@ button {
     .home-container{
         flex-direction: column;
         width: 100%;
-        padding: 0;
+        padding: 10px;
        
     }
     .content-home{
@@ -107,4 +107,20 @@ button {
     .profile-photo{
         width:100% ;
      }
+     .content-home h1{
+        font-size: 70px;
+        font-weight: 700;
+        text-align: justify;
+        opacity: 0;
+        animation: fadeInUp 3s infinite; 
+        padding: 15px;
+    }
+    .content-home p{
+        font-size: 17.5px;
+        font-weight: 400;
+        padding: 15px;
+        text-align: justify;
+        opacity: 0; 
+        animation: fadeInUp 3s infinite 3.5s; 
+    }
 }

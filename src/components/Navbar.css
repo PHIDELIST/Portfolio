@@ -92,7 +92,7 @@
     padding: 10px;
   }
 
-  .nav-list li:hover {
+  .nav-list li:checked {
     background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
     border-radius: 5px;
     cursor: pointer;
