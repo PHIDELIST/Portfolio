@@ -123,4 +123,7 @@ button {
         opacity: 0; 
         animation: fadeInUp 3s infinite 3.5s; 
     }
+    .btns{
+        padding: 15px;
+    }
 }
