@@ -47,3 +47,33 @@
     background-color: #7562E0;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .contact-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+    }
+    .contact-content{
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        padding:0px;
+    }
+    .email-form{
+        width: 100%;
+        
+    }
+    .email-form input{
+        width: 95%;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .email-form textarea{
+        max-width: 98%;
+        min-width: 98%;
+        min-height: 200px;
+
+    }
+   
+}

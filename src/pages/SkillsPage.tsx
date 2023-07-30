@@ -3,8 +3,8 @@ import './SkillsPage.css';
 export default function SkillsPage() {
   return (
     <div className='skills-container'>
-      <h1>My Skills:</h1>
       <div className='experience'>
+      <h1>My Skills:</h1>
         <p>
           I am a well-founded Software Developer with expertise in web development, web deployment, JavaScript, ReactJS, NodeJS, Express, GUI creation, and DevOps practices.
         </p>

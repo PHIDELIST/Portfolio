@@ -1,15 +1,27 @@
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import './Navbar.css';
+import {useState} from 'react'
 
 function Navbar() {
+  const [showLinks, setShowLinks] = useState<boolean>(false);
+
+  const toggleLinks = () => {
+    setShowLinks(!showLinks);
+  };
+
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
 
   return (
-    <div className='nav-items'>
-      <div className='logo' onClick={scrollToTop}>PHIDELIST OLUOCH OMUYA</div>
-      <ul className='nav-list'>
+<div className='nav-items'>
+    <div className='logo' onClick={scrollToTop}>PHIDELIST OLUOCH OMUYA</div>
+        <div className={`burger ${showLinks ? 'active' : ''}`} onClick={toggleLinks}>
+          <div className='line'></div>
+          <div className='line'></div>
+          <div className='line'></div>
+        </div>
+    <ul className={`nav-list ${showLinks ? 'active' : ''}`}>
         <li>
           <ScrollLink to='home' spy={true} smooth={true} offset={-70} duration={500}>Home</ScrollLink>
         </li>
@@ -31,7 +43,7 @@ function Navbar() {
         <li>
           <ScrollLink to='contact' spy={true} smooth={true} offset={-70} duration={500}>Contact</ScrollLink>
         </li>
-      </ul>
+    </ul>
     </div>
   );
 }

@@ -67,4 +67,27 @@
     text-align: justify;
     color: #fff;
   }
-  
+
+  @media screen and (max-width: 768px) {
+    .services-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+       
+    }
+    .cards-services {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding-right: 15px;
+    }
+    .card-services {
+      width: 100%;
+    }
+    .intro-services {
+      padding: 20px;
+    }
+}

@@ -7,3 +7,8 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+@media screen and (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+    }
+}

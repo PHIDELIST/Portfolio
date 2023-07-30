@@ -92,3 +92,19 @@ button {
    button:active {
     transform: scale(0.9);
    }
+
+   @media screen and (max-width: 768px) {
+    .home-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+       
+    }
+    .content-home{
+        width: 100%;
+        text-align: justify;
+    }
+    .profile-photo{
+        width:100% ;
+     }
+}

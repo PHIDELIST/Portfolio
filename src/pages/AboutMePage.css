@@ -50,3 +50,17 @@
   .card__content {
     scrollbar-width: none;
   }
+
+  @media screen and (max-width: 768px) {
+    .about-container{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+       
+    }
+    .about{
+      padding: 20px;
+    }
+
+}

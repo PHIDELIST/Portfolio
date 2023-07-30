@@ -9,8 +9,10 @@ import Jitu from '../assets/fullstack.png'
 function CertificationPage() {
     return (
         <div className="CertificationPage-container">
+            <div className='cert-text'>
             <h1>Certifications</h1>
             <p>Continuously enhancing my skills and knowledge, these certifications represent my commitment to excellence and passion for staying at the forefront of my field</p>
+            </div>
             <div className='cards-certs'>
                     <div className="card-container-certs">
                         <div className="card-certs">

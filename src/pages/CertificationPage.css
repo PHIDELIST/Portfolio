@@ -92,4 +92,23 @@
   .front-content img{
     width: 100%;
   }
-  
+  @media screen and (max-width: 768px) {
+    .CertificationPage-container{
+      flex-direction: column;
+      padding: 15px;
+     
+  }
+    .cards-certs{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+       
+    }
+    .cert-text{
+      text-align: justify;
+    }
+ 
+}
