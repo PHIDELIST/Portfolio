@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <>
     <div className="home-container">
-        <div className='content'>
+        <div className='content-home'>
             <h1>Hello,I'm Phidelist Oluoch Omuya</h1>
             <p>I'm a Full-Stack Developer and a Cloud engineer</p>
             <div className='btns'>

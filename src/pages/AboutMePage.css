@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 55px;
 }
 .card {
     width: 190px;
@@ -30,8 +31,22 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+    overflow-y: scroll;
+   
+  }
+  .card__content li{
+    text-align: left;
+    line-height: 2;
+    list-style-type: lower-roman;
+  }
+  .card__content::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+
+  .card__content {
+    scrollbar-width: none;
   }
