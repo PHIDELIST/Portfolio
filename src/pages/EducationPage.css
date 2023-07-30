@@ -1,0 +1,58 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1a1a29;
+    padding-left: 108px;
+    padding-right: 108px;
+    padding-top: 15px;
+    text-align: justify;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .university h1,
+  .secondary h1,
+  .Primary h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .university,
+  .secondary,
+  .Primary {
+    display: flex;
+    flex-direction: column;
+    background-color: #292944;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    
+  }
+  
+  .toggle-icon {
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+  
+  p {
+    color: #d0d0d0;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .toggle-icon svg {
+    vertical-align: middle;
+  }
+  
+  .toggle-icon svg:hover {
+    color: #ffc107;
+  }
+  

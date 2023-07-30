@@ -1,0 +1,10 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1A1A29;
+    padding-left: 108px;
+    padding-right: 108px;
+    padding-top: 15px;
+    text-align: justify;
+}
