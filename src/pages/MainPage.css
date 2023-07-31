@@ -1,5 +1,6 @@
 .main-container {
     overflow: hidden;
+    width: 100%;
   }
   
   .page-sections {
@@ -34,4 +35,10 @@
   .scroll-navigation a:hover {
     text-decoration: underline;
   }
-  
+  @media screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+}
