@@ -1,5 +1,5 @@
-.main-container {
-    overflow: hidden;
+.main-page {
+   padding: 0;
     width: 100%;
   }
   
@@ -36,9 +36,10 @@
     text-decoration: underline;
   }
   @media screen and (max-width: 768px) {
-    .main-container {
+    .main-page {
         flex-direction: column;
         width: 100%;
+        padding: 0;
         
     }
 }

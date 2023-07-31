@@ -107,6 +107,11 @@ button {
     .profile-photo{
         width:100% ;
      }
+     .btns{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
      .content-home h1{
         font-size: 70px;
         font-weight: 700;
