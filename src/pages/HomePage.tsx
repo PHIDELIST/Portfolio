@@ -17,8 +17,12 @@ export default function HomePage() {
         {showH1 && <h1>Hello,I'm Phidelist Oluoch Omuya</h1>}
         {showP && <p>I'm a Full-Stack Developer and a Cloud engineer</p>}
         <div className='btns'>
-          <button>Skills</button>
-          <button>Projects</button>
+          <a href='https://github.com/PHIDELIST'>
+            <button>GitHub</button>
+          </a>
+          <a href='https://delphiomuya.hashnode.dev'>
+            <button>Blog</button>
+          </a>
         </div>
       </div>
       <div className='profile-photo'>
