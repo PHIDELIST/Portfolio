@@ -115,6 +115,7 @@ button {
      .content-home h1{
         font-size: 70px;
         font-weight: 700;
+        font-family: 'Times New Roman';
         text-align: justify;
         opacity: 0;
         animation: fadeInUp 3s infinite; 
@@ -123,6 +124,7 @@ button {
     .content-home p{
         font-size: 17.5px;
         font-weight: 400;
+        font-family: 'Times New Roman';
         padding: 15px;
         text-align: justify;
         opacity: 0; 

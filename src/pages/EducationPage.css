@@ -68,4 +68,16 @@
       padding: 15px;
       
     }
+    .university h1,
+    .secondary h1,
+    .Primary h1{
+      font-size: large;
+      
+    }
+    .university p,
+    .secondary p,
+    .Primary p{
+      font-size: smaller;
+      
+    }
 }

@@ -90,4 +90,17 @@
     .intro-services {
       padding: 20px;
     }
+    .card__content-services h4{
+      font-size: large;
+    }
+    .card__content-services p{
+      font-size: small;
+      color: rgb(172, 177, 180);
+    }
+    .intro-services h1{
+      font-size: large;
+    }
+    .intro-services p{
+      font-size: small;
+    }
 }

@@ -19,6 +19,7 @@ export default function HomePage() {
         <div className='btns'>
           <a href='https://github.com/PHIDELIST'>
             <button>GitHub</button>
+            
           </a>
           <a href='https://delphiomuya.hashnode.dev'>
             <button>Blog</button>

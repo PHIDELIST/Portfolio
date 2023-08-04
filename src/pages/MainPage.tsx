@@ -6,6 +6,7 @@ import SkillsPage from './SkillsPage';
 import EducationPage from './EducationPage';
 import CertificationPage from './CertificationPage';
 import ContactPage from './ContactPage';
+import WorkExperiencePage from './WorkExperiencePage';
 function MainPage() {
     return (
       <div className='main-page'>
@@ -20,6 +21,9 @@ function MainPage() {
         </div>
         <div className='section' id='skills'>
           <SkillsPage />
+        </div>
+        <div className='section' id ='experience'>
+          <WorkExperiencePage />
         </div>
         <div className='section' id='education'>
           <EducationPage />

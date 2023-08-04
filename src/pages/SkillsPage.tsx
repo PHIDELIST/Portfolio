@@ -37,7 +37,7 @@ export default function SkillsPage() {
             <li>Docker</li>
             <li>Infrastructure as Code</li>
             <li>Git</li>
-            <li>Application Instrumentation</li>
+            <li>Application instrumentation and observability</li>
             <li>Automated Testing</li>
            
           </div>

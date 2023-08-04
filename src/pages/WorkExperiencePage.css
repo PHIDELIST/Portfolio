@@ -1,0 +1,31 @@
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1A1A29;
+    padding-left: 108px;
+    padding-right: 108px;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+    .CIL p{
+        font-size: smaller;
+    }
+    .CIL h1{
+        font-size: large;
+    }
+    .The-Jitu h1{
+        font-size: large;
+    }
+    .The-Jitu p{
+        font-size: smaller;
+    }
+   
+}

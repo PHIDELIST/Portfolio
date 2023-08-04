@@ -6,7 +6,7 @@ function ServicesPage(){
         <div className='intro-services'>
             <h1>What I do?</h1>
             <p>The Services I offer:</p>
-            <span>With a focus on delivering top-notch solutions, I offer a range of services that cater to diverse needs, including web development, cloud solutions, systems design, and more.</span>
+            <p>With a focus on delivering top-notch solutions, I offer a range of services that cater to diverse needs, including web development, cloud solutions, systems design, and more.</p>
         </div>
         
         <div className='cards-services'>
