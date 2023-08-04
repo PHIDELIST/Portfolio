@@ -7,7 +7,7 @@
     padding-left: 28px;
     padding-right: 28px;
     position: fixed; 
-    left: 10px; 
+    left: 9px; 
     right: 10px; 
     z-index: 1;
   }
@@ -43,7 +43,6 @@
   @media screen and (max-width: 768px) {
     .nav-items{
       padding-top: 0;
-      border-bottom: 5px;
       z-index: 1;
     }
     .burger {
@@ -77,10 +76,12 @@
   
     .nav-list.active {
       display: flex; 
+      
     }
   
     .nav-list li {
       padding: 10px;
+      text-align: center;
     }
   
     .nav-list li:hover {
@@ -92,7 +93,7 @@
       font-style: normal;
       font-family: Georgia;
       padding-top: 10px;
-      padding-bottom: 10px;
+      padding-bottom: 8px;
     }
   }
   
