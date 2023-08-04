@@ -1,7 +1,7 @@
 .nav-items {
     display: flex;
     flex-direction: row;
-    background-color: #181824;
+    background-color: #0f0f17;
     justify-content: space-between;
     align-items: center;
     padding-left: 28px;
@@ -9,6 +9,7 @@
     position: fixed; 
     left: 10px; 
     right: 10px; 
+    z-index: 1;
   }
   
   
@@ -24,7 +25,7 @@
   .nav-list {
     display: flex;
     flex-direction: row;
-    background-color: #181824;
+    background-color: #0f0f17;
     padding-right: 15px;
     list-style: none;
     gap: 20px;
@@ -66,7 +67,7 @@
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 30px;
+      top: 45px;
       left: 2em;
       width: 80%;
       background-color: #2B2B38; 
@@ -89,7 +90,7 @@
     }
     .logo{
       font-style: normal;
-      font-family: Verdana;
+      font-family: Georgia;
       padding-top: 10px;
       padding-bottom: 10px;
     }
