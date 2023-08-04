@@ -35,6 +35,9 @@ function Navbar() {
           <ScrollLink to='skills' spy={true} smooth={true} offset={0} duration={500}>Skills</ScrollLink>
         </li>
         <li>
+          <ScrollLink to='experience' spy={true} smooth={true} offset={0} duration={500}>Experience</ScrollLink>
+        </li>
+        <li>
           <ScrollLink to='education' spy={true} smooth={true} offset={0} duration={500}>Education</ScrollLink>
         </li>
         <li>

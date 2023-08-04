@@ -16,6 +16,9 @@
     padding-left: 15px;
     color: #7562E0;
     cursor: pointer;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
   }
   
   .nav-list {

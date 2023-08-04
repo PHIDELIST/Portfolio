@@ -21,7 +21,6 @@
   
   .intro-services p {
     font-size: 18px;
-    color: #666;
   }
   
   .cards-services {
@@ -34,7 +33,7 @@
     width: calc(33.33% - 35px);
     min-height: 250px;
     max-height: 300px;
-    padding: 10px;
+    padding: 8px;
     border-radius: 20px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     margin-bottom: 30px;
@@ -50,6 +49,7 @@
     background: rgb(5, 6, 45);
     border-radius: 10px;
     padding: 10px;
+    color: rgb(172, 177, 180);
   }
   
   .card__content-services::-webkit-scrollbar {
@@ -65,7 +65,7 @@
   .card__content-services p {
     font-size: 16px;
     text-align: justify;
-    color: #fff;
+    color: rgb(172, 177, 180);
   }
 
   @media screen and (max-width: 768px) {
@@ -95,7 +95,7 @@
     }
     .card__content-services p{
       font-size: small;
-      color: rgb(172, 177, 180);
+      
     }
     .intro-services h1{
       font-size: large;

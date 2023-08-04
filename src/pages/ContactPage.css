@@ -60,6 +60,12 @@
         gap: 5px;
         padding:0px;
     }
+    .contact-container h1{
+        font-size: large;
+    }
+    .icons h3{
+        font-size: small;
+    }
     .email-form{
         width: 100%;
         
