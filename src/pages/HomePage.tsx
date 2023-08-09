@@ -27,7 +27,7 @@ export default function HomePage() {
         </div>
       </div>
       <div className='profile-photo'>
-       
+      <img src={Profilephoto} alt="Profilephoto" />
       </div>
     </div>
   );
